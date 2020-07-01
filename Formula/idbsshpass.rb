@@ -4,8 +4,8 @@
 class Idbsshpass < Formula
   desc "随便看看"
   homepage "https://github.com/songxuhua"
-  url "https://github.com/songxuhua/homebrew-personDete/blob/master/idbsshpass.tar.gz"
-  version ""
+  url "https://github.com/songxuhua/homebrew-personDete/blob/master/idbsshpass.-1.0.0.tar.gz"
+  version "1.0.0"
   sha256 ""
 
   # depends_on "cmake" => :build
