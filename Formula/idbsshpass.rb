@@ -2,11 +2,10 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Idbsshpass < Formula
-  desc "随便看看"
+  desc "我是宋旭华啊"
   homepage "https://github.com/songxuhua"
-  url "https://github.com/songxuhua/homebrew-personDete/blob/master/idbsshpass.-1.0.0.tar.gz"
-  version "1.0.0"
-  sha256 ""
+  url "https://github.com/songxuhua/homebrew-personDete/blob/master/idbsshpass-1.0.0.tar.gz"
+  sha256 "ab247e0ac56727c2f81c4faef03abf04c9077965f3db19e0d1f06ed473b18e81"
 
   # depends_on "cmake" => :build
 
