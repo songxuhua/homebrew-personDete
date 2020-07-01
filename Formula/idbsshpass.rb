@@ -12,10 +12,11 @@ class Idbsshpass < Formula
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
-    system "./configure", "--disable-debug",
-                          "--disable-dependency-tracking",
-                          "--disable-silent-rules",
-                          "--prefix=#{prefix}"
+#    system "./configure", "--disable-debug",
+#                          "--disable-dependency-tracking",
+#                          "--disable-silent-rules",
+#                          "--prefix=#{prefix}"
+    bin.install "idbsshpass"
     # system "cmake", ".", *std_cmake_args
   end
 
