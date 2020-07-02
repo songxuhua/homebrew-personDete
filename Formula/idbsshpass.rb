@@ -5,8 +5,8 @@ class Idbsshpass < Formula
   desc "我是宋旭华啊"
   homepage "https://github.com/songxuhua"
   url "https://github.com/songxuhua/homebrew-personDete/blob/master/idbsshpass-2.0.0.tar.gz"
-  sha256 "f171cc069fd31a355612acb10a1ac14aa6a5c48d81af87f2420598b990094b64"
-  version "2.0.0"
+  sha256 "b2ce64950eefc9d09d6f105c719f38a712c0ff0b8309052c882286a9071e2534"
+
   # depends_on "cmake" => :build
 
   def install
@@ -17,7 +17,8 @@ class Idbsshpass < Formula
 #                          "--disable-silent-rules",
 #                          "--prefix=#{prefix}"
         bin.install "idbsshpass"
-# system "cmake", ".", *std_cmake_args
+
+    # system "cmake", ".", *std_cmake_args
   end
 
   test do
